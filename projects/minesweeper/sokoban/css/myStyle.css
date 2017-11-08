@@ -1,0 +1,15 @@
+body {
+    background: lightgreen;
+}
+
+td{
+    width: 30px;
+    height: 30px;
+    text-align: center
+}
+.cellClicked{
+    color: black;
+}
+.cellUnClicked{
+    color: lightgreen;
+}

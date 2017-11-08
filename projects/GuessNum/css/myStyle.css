@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(LightGreen, LightSalmon, LightSkyBlue, Plum);
+}
+
+.divTitle{
+border: 5px double black;
+border-radius: 40px;
+width: 65%;
+margin: auto;
+
+}
+.gameName{
+   text-align: center;
+   color: Maroon;
+   font-family: Georgia;
+   padding: 20px;
+   
+}
+
+td{
+    width: 20px;
+    height: 20px;
+    text-align: center
+}
+.divText{
+     text-align: center;
+     font-family: Georgia;
+     padding: 10px;
+     margin: 70px;
+     font-size: 50px;
+}
+
+.btn{
+
+    font-family: Georgia;
+    padding: 10px;
+    font-size: 50px;
+     background: linear-gradient(LightGreen, LightSalmon, LightSkyBlue, Plum); 
+    padding: 20px;
+    border-radius: 20px;
+}
+.btn:hover{
+    color: green;
+}

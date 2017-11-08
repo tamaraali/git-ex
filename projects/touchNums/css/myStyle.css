@@ -1,0 +1,44 @@
+body {
+    background:lightblue;
+}
+
+.wrapper{
+     border: 3px solid navy;
+     width: 700px;
+     height: 700px;
+}
+.head{
+     border: 5px solid maroon;
+     width: 500px;
+     height: 100px;
+     margin: 20px;
+}
+.numbers{
+     border: 3px solid green;
+     width: 500px;
+     height: 500px;
+     margin: 20px;
+}
+.time{
+    border: 3px solid purple;
+    width: 100px;
+    height: 50px;
+    float: left;
+    margin: 5px;
+}
+.newGame{
+    background-color: white;
+    float : right;
+    margin: 5px;
+
+}
+.board{
+    border: 5px solid yellow;
+    width: 450px;
+    height: 450px;
+    border: 1px solid black;
+}
+td,table{
+    border: 1px solid black;
+    text-align: center;
+}

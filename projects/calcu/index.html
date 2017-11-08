@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="css/myStyle.css">
+    </head>
+    
+    <body>
+
+        <h1>Mister Calculator</h1>
+        
+    <div class="digits"></div>
+    <table>
+        <tr> <td id="calcuScreen" colspan=5></td></tr>
+
+        <tr class="mOpprations">
+            <td onclick="memory('MC')";>MC</td>
+            <td onclick="memory('MR')";>MR</td>
+            <td onclick="memory('MS')";>MS</td>
+            <td onclick="memory('M+')";>M+</td>
+            <td onclick="memory('M-')";>M-</td>
+        </tr>
+        <tr>
+            <td>&#8592;</td>
+            <td>CE</td>
+            <td>C</td>
+            <td>&#177;</td>
+            <td class="leftSide">&#8730;</td>
+        </tr>
+        <tr>
+            <td onclick="addDigit('7');">7</td>
+            <td onclick="addDigit('8');">8</td>
+            <td onclick="addDigit('9');">9</td>
+            <td onclick="addOperator('/');">/</td>
+            <td onclick="addOperator('%');" class="leftSide">%</td>
+        </tr>
+        <tr>
+            <td onclick="addDigit('4');">4</td>
+            <td onclick="addDigit('5');">5</td>
+            <td onclick="addDigit('6');">6</td>
+            <td onclick="addOperator('*');">*</td>
+            <td class="leftSide">1/x</td>
+        </tr>
+        <tr>
+            <td onclick="addDigit('1');">1</td>
+            <td onclick="addDigit('2');">2</td>
+            <td onclick="addDigit('3');">3</td>
+            <td onclick="addOperator('-');">-</td>
+            <td onclick = "calculate();" class="shavi" rowspan ="2">=</td>
+        </tr>
+        <tr>
+            <td colspan="2" onclick="addDigit(0);">0</td>
+            <td>.</td>
+            <td onclick="addOperator('+');">+</td>
+        </tr>
+    </table>
+
+        
+
+
+
+
+
+
+
+        <!-- <script src="js/utils.js"></script>     -->
+        <script src="js/main.js"></script>    
+    </body>
+    
+    
+</html>    
